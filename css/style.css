@@ -16,18 +16,99 @@
 }
 
 .eachSection {
-    margin: 5%;
+    padding: 5%;
 }
 
 #aloha {
     font-size: 20vw;
     font-family: Explorer;
-    color: #5bb0a5;
 }
 
 #welcome {
     font-family: museo-slab;
     text-transform: uppercase;
     font-weight: 900;
-    color: #8fa33b;
 }
+
+.navBar {
+    position: fixed;
+    bottom: 2%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    left: 5%;
+    right: 5%;
+    font-family: museo-slab;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 0.7em;
+    z-index: 9;
+}
+
+.navBar > ul {
+    list-style-type: none;
+    padding-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navBar > ul > li {
+    display: inline-block;
+}
+
+.green-bg {
+    background-color: #63780b;
+}
+
+.blue-text {
+    color: #2b988a;
+}
+
+.green-text {
+    color: #63780b;
+}
+
+.title-intro {
+    position: relative;
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 50%;
+}
+
+.light-bg {
+    background-color: #f9f6e8;
+}
+
+.fullHeight {
+    height: 100vh;
+}
+
+.header {
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+}
+
+.yellow-bg {
+    background-color: #fbd935;
+}
+
+@keyframes rotateSVG{
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#favoritesRotate {
+    animation-name: rotateSVG;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
