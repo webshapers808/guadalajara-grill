@@ -1,0 +1,33 @@
+/* FONTS */
+@font-face {
+    font-family: 'Explorer';
+    src: url('explorer_free_regular_400-webfont.woff2') format('woff2'),
+         url('explorer_free_regular_400-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url("https://use.typekit.net/oaa1rws.css");
+
+/* MAIN */
+.main {
+    margin: 0;
+    background-color: #fbd935;
+}
+
+.eachSection {
+    margin: 5%;
+}
+
+#aloha {
+    font-size: 20vw;
+    font-family: Explorer;
+    color: #5bb0a5;
+}
+
+#welcome {
+    font-family: museo-slab;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #8fa33b;
+}
