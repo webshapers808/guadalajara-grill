@@ -79,7 +79,7 @@ html {
     position: relative;
     margin-bottom: 0;
     text-align: center;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .light-bg {
@@ -139,7 +139,7 @@ html {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    margin-bottom: 10%;
+    margin-bottom: 30%;
 }
 
 .location-title {
@@ -153,6 +153,7 @@ html {
 .horizontalStrip {
     display: inline-flex;
     padding-left: 15%;
+    margin-bottom: 10%;
 }
 
 .ellipseContainer {
@@ -187,6 +188,9 @@ html {
 .card > h4 {
     width: 80%;
     margin: 0 auto;
+    font-family: museo-slab;
+    font-weight: 800;
+    font-size: 1em;
 }
 
 .card > p {
@@ -194,19 +198,17 @@ html {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
+    font-family: museo-sans;
+    font-size: 0.9em;
 }
 
 .red-text {
     color: #fb3c3c;
-    font-size: 10vw;
+    font-size: 15vw;
     font-family: cheap-pine-sans;
-    width: 60%;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 20px;
-    border: 4px dotted #fb3c3c;
-    margin-top: 20%;
+    margin: 0 5%;
 }
 
 .favoritesButton {
@@ -214,6 +216,7 @@ html {
     width: 100px;
     height: 100px;
     float: right;
+    transform: translateY(25vh);
 }
 
 .title-intro > span {
@@ -224,3 +227,81 @@ html {
     transform: translateY(25vh);
 }
 
+.wordArt > img {
+    width: 100%;
+}
+
+.faveSecTitle {
+    width: 62%;
+    border-radius: 10px;
+    border: 4px dotted #fb3c3c;
+    margin: 20% auto 10%;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    justify-content: center;
+}
+
+.locationAddress {
+    color: #ffffff;
+    font-family: museo-sans;
+    font-size: 0.8em;
+}
+
+.locationDesc {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#directionButton {
+    font-family: museo-slab;
+    color: #000000;
+    background-color: #fbd935;
+    font-weight: 800;
+    font-size: 0.9em;
+    padding: 10px auto;
+    border-radius: 10px;
+    min-width: 40%;
+    min-height: 40px;
+}
+
+#storySec {
+    color: #ffffff;
+}
+
+#storySec > h3 {
+    font-family: cheap-pine-sans;
+    font-size: 16vw;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#banderitas {
+    width: 100%;
+    mix-blend-mode: multiply;
+}
+
+#storySec > p {
+    font-family: museo-sans;
+    font-size: 1.5em;
+    line-height: 1.3em;
+}
+
+#storySec > q {
+    font-family: museo-slab;
+    font-size: 3em;
+}
+
+#crownQuote {
+    width: 60px;
+    height: 90px;
+    transform: rotate(270deg);
+    mix-blend-mode: multiply;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
