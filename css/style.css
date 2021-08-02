@@ -221,6 +221,8 @@ html {
 
 .title-intro > span {
     display: block;
+    opacity: 0;
+    transform: translateY(5vh);
 }
 
 .shapeContainer > img {
@@ -304,4 +306,9 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.navBar > ul > li > a {
+    text-decoration: none;
+    color: #000000;
 }
